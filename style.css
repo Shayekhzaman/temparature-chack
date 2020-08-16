@@ -1,0 +1,14 @@
+body {
+    background: url(images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#city-name{
+    color: rgb(128, 77, 0);
+}
+#temp-color{
+    color: red;
+}
+#weatherStatus{
+    color: rgb(185, 252, 0);
+}
