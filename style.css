@@ -3,12 +3,31 @@ body {
     background-size: cover;
     height: 100vh;
 }
+#input-area{
+    /* margin-top: 20px; */
+}
 #city-name{
-    color: rgb(128, 77, 0);
+    color:mediumvioletred;
 }
 #temp-color{
-    color: red;
+    color:red;
+    font-size: 30px;
 }
 #weatherStatus{
     color: rgb(185, 252, 0);
+}
+#footer{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 10px;
+}
+#copyNotice{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 7px;
+}
+#details{
+    display: none;
 }

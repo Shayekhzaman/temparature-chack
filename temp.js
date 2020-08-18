@@ -1,6 +1,12 @@
 
 
 document.getElementById("search-btn").addEventListener("click",function(){
+    const details=document.getElementById("details");
+    details.style.display="block";
+
+    const footer=document.getElementById("footer");
+     footer.style.display="none"
+
     const cityName=document.getElementById("cityName").value;
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=c4c68edf3147abbc9892326da35f3029`)
         .then(res => res.json())
